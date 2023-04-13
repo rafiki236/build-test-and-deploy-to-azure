@@ -8,8 +8,8 @@ on:
 
 env:
   TAG: v1
-  SERVER: demoblogsiteregistry.azurecr.io
-  IMAGE: demoblogsite-container
+  SERVER: myregistry13042023.azurecr.io
+  IMAGE: devops-container
 
 jobs:
   build:
