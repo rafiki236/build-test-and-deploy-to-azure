@@ -15,7 +15,7 @@ func renderIndex(c *fiber.Ctx) error {
 		"Title":             "My travel blog",
 		"India-Description": "Let's visit Mumbai",
 		"Dubai-Description": "Let's visit Dubai",
-		"USA-Description":   "Let's visit New York",
+		"USA-Description":   "Let's visit USA",
 	}, "layouts/main")
 }
 
