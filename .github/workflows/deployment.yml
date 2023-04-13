@@ -34,4 +34,3 @@ jobs:
       - run: |
           docker build . -t ${{ env.SERVER }}/${{ env.IMAGE }}:${{ env.TAG }}
           docker push ${{ env.SERVER }}/${{ env.IMAGE }}:${{ env.TAG }}
- 

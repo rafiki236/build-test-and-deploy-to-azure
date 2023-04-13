@@ -12,7 +12,7 @@ import (
 **/
 func renderIndex(c *fiber.Ctx) error {
 	return c.Render("index", fiber.Map{
-		"Title":             "Liam's travel blog",
+		"Title":             "My travel blog",
 		"India-Description": "Let's visit Mumbai",
 		"Dubai-Description": "Let's visit Dubai",
 		"USA-Description":   "Let's visit New York",
@@ -27,7 +27,7 @@ func setupRoutes(app *fiber.App) {
 	app.Get("/", renderIndex)
 }
 
-/* main - main function executing the server and handlebars templating 
+/* main - main function executing the server and handlebars templating
 ** Input = null
 ** Output = null / listens on port 3000 for the app server
 **/
